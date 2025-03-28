@@ -1,0 +1,26 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.tombol-beli {
+    background-color: #ff6347;
+    border-color: #ff6347;
+}
+
+.tombol-beli:hover {
+    background-color: #ff4500;
+    border-color: #ff4500;
+}
+
+.judul-utama {
+    color: #ff6347;
+}
